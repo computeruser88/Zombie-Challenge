@@ -20,7 +20,7 @@ function main() {
     fight();
 }
 function fight() {
-    console.log("It's your turn to fight!");
+    console.log("It's your turn to fight!\n");
     inquirer.prompt(playerTurn).then(answers => {
         var playerAttackNumber = answers.numberGuessed;
         // console.log("player attack number " + playerAttackNumber);
